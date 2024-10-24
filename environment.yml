@@ -1,0 +1,6 @@
+name: myenv
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - jupyter
