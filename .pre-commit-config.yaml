@@ -16,4 +16,5 @@ repos:
   rev: v1.13.0
   hooks:
     - id: mypy
-      args: ["--config-file", "mypy.ini"]
+      args: ["--ignore-missing-imports", "--strict"]
+      additional_dependencies: [pandas, matplotlib]
